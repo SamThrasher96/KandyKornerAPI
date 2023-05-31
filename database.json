@@ -1,0 +1,231 @@
+{
+    "users" : [
+        {
+        "id": 1,
+        "name": "Kelsey Lemmer",
+        "email": "kelseyLovesVPR@gmail.com",
+        "isStaff": true
+        },
+        {
+        "id": 2,
+        "name": "Katie Zarbock",
+        "email": "TaylorSwiftBiggestFan@gmail.com",
+        "isStaff": false
+        },
+        {
+        "id": 3,
+        "name": "Logan Welch",
+        "email": "singingBoy101@gmail.com",
+        "isStaff": false
+        },
+        {
+        "id": 4,
+        "name": "Briana Phillips",
+        "email": "womenWantMeFishFearMe@gmail.com",
+        "isStaff": true
+        },
+        {
+        "id": 5,
+        "name": "Casey Ferebee",
+        "email": "adamSandlerImpersonator@gmail.com",
+        "isStaff": false
+        },
+        {
+        "id": 6,
+        "name": "Coach Steve",
+        "email": "anyQuestions@gmail.com",
+        "isStaff": true
+        },
+        {
+        "id": 7,
+        "name": "Tiana",
+        "email": "yeehawPartner@gmail.com",
+        "isStaff": true
+        },
+        {
+        "id": 8,
+        "name": "Greg",
+        "email": "ripGreg@gmail.com",
+        "isStaff": true
+        }
+    ],
+    "customers" : [
+        {
+        "id": 1,
+        "userId": 2,
+        "loyaltyNumber": 29384
+        },
+        {
+        "id": 2,
+        "userId": 3,
+        "loyaltyNumber": 75923
+        },
+        {
+        "id": 3,
+        "userId": 5,
+        "loyaltyNumber": 48206
+        }
+    ],
+    "employees" : [
+        {
+        "id": 1,
+        "userId": 1,
+        "startDate": "May 1st, 2023",
+        "payRate": 15,
+        "storeId": 4
+        },
+        {
+        "id": 2,
+        "userId": 4,
+        "startDate": "May 2nd, 2023",
+        "payRate": 16,
+        "storeId": 1
+        },
+        {
+        "id": 3,
+        "userId": 6,
+        "startDate": "May 3rd, 2023",
+        "payRate": 5,
+        "storeId": 3
+        },
+        {
+        "id": 4,
+        "userId": 7,
+        "startDate": "May 7th, 2023",
+        "payRate": 20,
+        "storeId": 2
+        },
+        {
+        "id": 5,
+        "userId": 8,
+        "startDate": "May 8th, 2023",
+        "payRate": 15,
+        "storeId": 1
+        }
+    ],
+    "locations" : [
+        {
+        "id": 1,
+        "name": "Sweet Delights",
+        "address": "123 Main Street",
+        "squareFootage": 1000,
+        "availableProductID": ""
+        },
+        {
+        "id": 2,
+        "name": "Sugar Rush",
+        "address": "456 Elm Street",
+        "squareFootage": 800,
+        "availableProductID": ""
+        },
+        {
+        "id": 3,
+        "name": "The Candy Corner",
+        "address": "789 Oak Avenue",
+        "squareFootage": 1200,
+        "availableProductID": ""
+        },
+        {
+        "id": 4,
+        "name": "Treats Galore",
+        "address": "321 Maple Drive",
+        "squareFootage": 1500,
+        "availableProductID": ""
+        },
+        {
+        "id": 5,
+        "name": "Candyland Emporium",
+        "address": "654 Pine Lane",
+        "squareFootage": 900,
+        "availableProductID": ""
+        }
+    ],
+    "productTypes" : [
+        {
+        "id": 1,
+        "type": "candy bars"
+        },
+        {
+        "id": 2,
+        "type": "gummies"
+        },
+        {
+        "id": 3,
+        "type": "lolipop"
+        },
+        {
+        "id": 4,
+        "type": "taffy"
+        },
+        {
+        "id": 5,
+        "type": "licorice"
+        },
+        {
+        "id": 6,
+        "type": "chocolate"
+        }
+    ],
+    "products" : [
+        {"id": 1,
+        "name": "M&M's",
+        "productTypeId": 1,
+        "pricePerUnit": 1
+        },
+        {
+        "id": 2,
+        "name": "Snickers",
+        "productTypeId": 1,
+        "pricePerUnit": 1.5
+        },
+        {
+        "id": 3,
+        "name": "Haribo Gold Bears",
+        "productTypeId": 2,
+        "pricePerUnit": 1.25
+        },
+        {
+        "id": 4,
+        "name": "Swedish Fish",
+        "productTypeId": 2,
+        "pricePerUnit": 1
+        },
+        {
+        "id": 5,
+        "name": "Chupa Chups",
+        "productTypeId": 3,
+        "pricePerUnit": 0.75
+        },
+        {
+        "id": 6,
+        "name": "Tootsie Roll",
+        "productTypeId": 4,
+        "pricePerUnit": 0.5
+        },
+        {
+        "id": 7,
+        "name": "Red Vines",
+        "productTypeId": 5,
+        "pricePerUnit": 0.75
+        },
+        {
+        "id": 8,
+        "name": "Jolly Rancher",
+        "productTypeId": 6,
+        "pricePerUnit": 0.5
+        },
+        {
+        "id": 9,
+        "name": "Kit Kat",
+        "productTypeId": 1,
+        "pricePerUnit": 1.25
+        },
+        {
+        "id": 10,
+        "name": "Twizzlers",
+        "productTypeId": 5,
+        "pricePerUnit": 0.75
+        }
+    ],
+    "purchases" : []
+}
