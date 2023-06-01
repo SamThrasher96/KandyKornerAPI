@@ -170,13 +170,13 @@
         {"id": 1,
         "name": "M&M's",
         "productTypeId": 1,
-        "pricePerUnit": 1
+        "pricePerUnit": 1.00
         },
         {
         "id": 2,
         "name": "Snickers",
         "productTypeId": 1,
-        "pricePerUnit": 1.5
+        "pricePerUnit": 1.50
         },
         {
         "id": 3,
@@ -188,7 +188,7 @@
         "id": 4,
         "name": "Swedish Fish",
         "productTypeId": 2,
-        "pricePerUnit": 1
+        "pricePerUnit": 3.00
         },
         {
         "id": 5,
@@ -200,7 +200,7 @@
         "id": 6,
         "name": "Tootsie Roll",
         "productTypeId": 4,
-        "pricePerUnit": 0.5
+        "pricePerUnit": 0.50
         },
         {
         "id": 7,
@@ -212,7 +212,7 @@
         "id": 8,
         "name": "Jolly Rancher",
         "productTypeId": 6,
-        "pricePerUnit": 0.5
+        "pricePerUnit": 0.50
         },
         {
         "id": 9,
@@ -224,7 +224,7 @@
         "id": 10,
         "name": "Twizzlers",
         "productTypeId": 5,
-        "pricePerUnit": 0.75
+        "pricePerUnit": 2.75
         }
     ],
     "purchases" : []
