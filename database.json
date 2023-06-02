@@ -226,6 +226,24 @@
       "name": "Twizzlers",
       "productTypeId": 5,
       "pricePerUnit": 2.75
+    },
+    {
+      "name": "Test",
+      "productTypeId": "1",
+      "pricePerUnit": "1",
+      "id": 11
+    },
+    {
+      "name": "Reese's Cups",
+      "productTypeId": "6",
+      "pricePerUnit": "2",
+      "id": 12
+    },
+    {
+      "name": "Sour Patch Watermelon",
+      "productTypeId": "2",
+      "pricePerUnit": "5",
+      "id": 13
     }
   ],
   "purchases": []
